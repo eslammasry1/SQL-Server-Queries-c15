@@ -30,13 +30,14 @@ The goal is to move from understanding database structure to writing optimized p
 ## 📂 Project Structure
 
 SQL-Practice
-├── Constraints.sql
 
-├── DDL.sql
+├──> Constraints.sql
 
-├── DML.sql
+├──> DDL.sql
 
-├── DQL.sql
+├──> DML.sql
+
+├──> DQL.sql
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
