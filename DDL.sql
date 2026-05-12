@@ -1,5 +1,5 @@
 --==============================================================
--------------SQL - Data Definition Language - DDL-------------
+--         SQL - Data Definition Language - DDL               --
 --==============================================================
 
 ------------------------------------------
@@ -41,8 +41,8 @@ IF EXISTS(SELECT * FROM sys.databases WHERE NAME = 'DB1')
 
 CREATE TABLE Students(
 	ID INT NOT NULL,
-	"FName" NVARCHAR(20) NOT NULL,--[] or "" means that column may have spaces 
-	"LName" NVARCHAR(20) NULL,--but "" general in all aql langs, and [] just in SQL Server
+	"FName" NVARCHAR(20) NOT NULL,
+	"LName" NVARCHAR(20) NULL,
 	UserName VARCHAR(50) NOT NULL,
 	Phone CHAR(10) NULL
 	PRIMARY KEY (ID)
@@ -147,5 +147,3 @@ RESTORE DATABASE DB1
 FROM DISK = 'C:\DB1.bak';
 
 
-
---See You In DML .......
